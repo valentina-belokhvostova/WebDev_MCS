@@ -1,0 +1,56 @@
+@import url(reset.css);
+.header {
+	height: 200px;
+	background-color: #E5E000;
+}
+.header h1 {
+	font-family: Helvetica; sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 200px;
+	padding-left: 80px;
+	color: #FFFFFF;
+}
+.image {
+	height: 1080px;
+	background-image: url(../img/img.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.nav {
+	height: 100px;
+	background-color: #E5E000;
+}
+.nav a {
+	font-family: Helvetica; sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 100px;
+	padding-left: 80px;
+	color: #FFFFFF;
+}
+
+main {
+	padding: 80px;
+}
+
+.main p {
+	font-family: Helvetica; sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 57px;
+	color: #000000;
+	margin: 0px;
+	padding: 15px;
+}
+
+.footer {
+	height: 200px;
+	background-color: #E5E000;
+}
+.logo {
+	padding: 80px;
+}
