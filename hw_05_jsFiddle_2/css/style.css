@@ -1,33 +1,41 @@
-.page {
-  font-family: sans-serif;
-}
+@import url(reset.css);
 
-a {
-  color: white;
-}
 .header, footer {
-  height: 50px;
   background-color: black;
   color: white;
+  height: 50px;
   padding: 15px;
   box-sizing: border-box;
 }
 
+.header h1{
+ display: inline; 
+}
+
 .header-container {
+  margin: auto;
   font-size: 0;
   width: 800px;
-  margin: auto;
 }
+
 .logo {
   font-size: 20px;
   width: 200px;
+  display: inline-block;
 }
+
 .menu {
   font-size: 16px;
+  display: inline-block;
 }
 
 .menu li {
-  margin-right: 5px;
+  display: inline;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
 }
 
 .columns {
@@ -37,23 +45,29 @@ a {
 }
 
 .left {
-  width: 200px;
-  margin-right: 10px;
-  background-color: black;
   box-sizing: border-box;
-  padding: 20px;
   font-size: 16px;
+  display: inline-block;
+  background-color: black;
+  width: 200px;
+  padding: 20px;
   vertical-align: top;
+  margin-right: 10px;
 }
+
+.left a {
+  display: block;
+  margin-top: 5px;
+  text-decoration: none;
+  color: white;
+}
+
 .right {
   width: 590px;
   border: 2px solid black;
   box-sizing: border-box;
   padding: 20px;
   font-size: 16px;
+  display: inline-block;
   vertical-align: top;
-}
-
-.left a {
-  margin-top: 5px;
 }

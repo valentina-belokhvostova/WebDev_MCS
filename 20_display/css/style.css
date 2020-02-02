@@ -7,7 +7,6 @@
 
 div {
 	width: 250px;
-	display: inline-block;
 	color: white;
 	vertical-align: top;
 	font-size: 16px;
@@ -15,10 +14,12 @@ div {
 .one {
 	height: 200px;
 	background-color: black;
+	display: inline-block;
 }
 .two {
 	height: 200px;
 	background-color: green;
+	display: inline-block;
 }
 a {
 	width: 200px;
