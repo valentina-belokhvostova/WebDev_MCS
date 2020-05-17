@@ -1,0 +1,122 @@
+@import url(reset.css);
+.header {
+  padding: 50px;
+  display: flex;
+  height: 140px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 40px;
+}
+
+.links {
+  width: 440px;
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  font-size: 50px;
+  font-weight: normal;
+  font-family: Arial;
+  color: #E50043;
+  text-decoration: none;
+  display: inline-block;
+  width: 130px;
+}
+
+.mountainsBackground {
+  background-image: url(../img/evian_origins_logo.png);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagline {
+  font-size: 100px;
+  font-family: Arial;
+  color: #E50043;
+}
+
+.main {
+  padding: 150px 200px;
+}
+
+.description {
+  justify-content: center;
+  align-items: center;
+}
+
+.descriptionBox{
+  border: 3px solid #F8BFC7;
+  border-radius: 20px;
+  padding: 24px;
+}
+
+.descriptionText, .infoText {
+  font-family: Arial;
+  font-size: 25px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+}
+
+.bottles {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottle {
+  height: 863px;
+  display: inline-block;
+}
+
+.captionBox {
+  margin-top: 50px;
+}
+
+.caption {
+  font-family: Arial;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.infoBox {
+  margin-top: 150px;
+  border: 3px solid #F8BFC7;
+  border-radius: 20px;
+  display: flex;
+}
+
+.infoImage {
+  height: 220px;
+  display: inline-block;
+  margin: 30px 80px;
+}
+
+.infoTextBox {
+  display: inline-block;
+  margin: 30px 30px 30px 0px;
+}
+.footer {
+  background: #F8BFC7;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.copyright, .back {
+  display: block;
+  font-family: Arial;
+  font-size: 50px;
+  line-height: 57px;
+}

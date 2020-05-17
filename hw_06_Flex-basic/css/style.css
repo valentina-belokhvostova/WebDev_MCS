@@ -1,0 +1,14 @@
+@import url(reset.css);
+
+.bigBlueBlock {
+  height: 100vh;
+  background-color: blue;
+  display: flex;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+  font-family: sans-serif;
+  margin: auto;
+}

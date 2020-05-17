@@ -1,5 +1,8 @@
 @import url(reset.css);
 
-body {
-	background: red;
+.clear {
+	clear: both;
+}
+img {
+	float: left;
 }
